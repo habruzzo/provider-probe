@@ -11,8 +11,8 @@ import (
 //make requests to nylas endpoint
 const (
 	detectionUrl string = "https://api.nylas.com/connect/detect-provider"
-	clientId     string = "c2k6c7oo1ccajazrqdwvlk0h3"
-	clientSecret string = "3m10kmuxh3srb1itf3yxfvkej"
+	clientId     string = ""
+	clientSecret string = ""
 )
 
 type ProviderDetectionRequest struct {
